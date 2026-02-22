@@ -16,6 +16,6 @@ class ProtectedView(APIView):
 
     def get(self, request):
         return Response({
-            "message": "You are authenticated!",
+            "message": "Version 1 API Working!",
             "user": request.user.username
         })
